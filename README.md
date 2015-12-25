@@ -12,5 +12,4 @@ Please feel free to fork!
 
 ```selenium```
 
-
-__MIT LICENSE__
+**MIT LICENSE**
