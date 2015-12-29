@@ -1,1 +1,1 @@
-#### This is the direcotry where the financial transactions files will be downloaded to
+#### This is the directory is where the recent transactions will be downloaded to
