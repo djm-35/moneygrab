@@ -21,6 +21,12 @@ class AA(Grab):
         password_input.send_keys(pwd)
         login_btn.click()
 
+        # Check if offer modal is showing and if so, close it
+        try:
+            self._attempt(By.CSS, 'Lxcut_closeBtnDiv > a').clic()
+        except:
+            pass
+
         # Print out cashback
         try:
             whole = self._attempt(By.ID, 'ah-whole-loyalty').text
